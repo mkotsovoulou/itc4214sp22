@@ -14,11 +14,11 @@ Design a webpage using HTML, CSS, and JavaScript to let users answer trivia ques
 {% next %}
 ## JAVASCRIPT  TASKS
 * Add logic so that the buttons change colors when a user clicks on them.
-- If a user clicks on a button with an incorrect answer, the button should turn red and text should appear beneath the question that says “Incorrect”.
-- If a user clicks on a button with the correct answer, the button should turn green and text should appear beneath the question that says “Correct!”.
+-- If a user clicks on a button with an incorrect answer, the button should turn red and text should appear beneath the question that says “Incorrect”.
+-- If a user clicks on a button with the correct answer, the button should turn green and text should appear beneath the question that says “Correct!”.
 * add logic so that the text field changes color when a user confirms their answer.
-- If the user types an incorrect answer and presses the confirmation button, the text field should turn red and text should appear beneath the question that says “Incorrect”.
-- If the user types the correct answer and presses the confirmation button, the input field should turn green and text should appear beneath the question that says “Correct!”.
+-- If the user types an incorrect answer and presses the confirmation button, the text field should turn red and text should appear beneath the question that says “Incorrect”.
+-- If the user types the correct answer and presses the confirmation button, the input field should turn green and text should appear beneath the question that says “Correct!”.
 {% next %}
 ## CSS  TASKS
 * Edit styles.css to change the CSS of your webpage!
