@@ -1,5 +1,5 @@
 # Lab 1: Getting Started
-![This is an image](https://github.com/mkotsovoulou/itc4214sp22/blob/main/labs/trivia/questions.png)
+![EndResult](questions.png)
 ## Open VS Code.
 
 ## Download starter code
