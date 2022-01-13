@@ -1,9 +1,9 @@
-# Lab 1: WebPage Design
+# Lab 2: WebPage Design and Javascript
 Design a webpage using HTML, CSS, and JavaScript to let users answer trivia questions. Use the following screenshot to get ideas...
 
 ![EndResult](questions.png)
 
-## HTML TASKS
+## HTML Tasks
 In `trivia.html`:
 * Add beneath “Part 1” a multiple-choice trivia question of your choosing with HTML.
 * Use an `h3` heading for the text of your question.
@@ -15,7 +15,9 @@ In `trivia.html`:
 
 {% next %}
 
-## JAVASCRIPT  TASKS
+## JavaScript  Tasks
+Include your javascript inside `trivia.html` in the `<script> </script>` tag.
+
 * Add logic so that the buttons change colors when a user clicks on them.
     * If a user clicks on a button with an incorrect answer, the button should turn red and text should appear beneath the question that says “Incorrect”.
     * If a user clicks on a button with the correct answer, the button should turn green and text should appear beneath the question that says “Correct!”.
@@ -27,6 +29,12 @@ In `trivia.html`:
 
 ## CSS TASKS
 * Edit styles.css to change the CSS of your webpage!
+    * Modify the background color of your page
+    * Include an image as background to the Trivia Hero Section
+    * Modify the style and color of the h1 elements
+    * Modify the style and color of all questions
+    * Change the font for the questions to a google font of your choice, and the font color!
+    * Change the font for the H1 elements to a different google font of your choice
 
 ## Optional
 * Add additional trivia questions to your trivia quiz if you would like!
@@ -35,7 +43,11 @@ In `trivia.html`:
 
 ## SUBMIT YOUR WORK
 
-Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+Execute the below, logging in with your GitHub username and Personal Access Token when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token.
+
+If you do not have generated a Personal Access ToKen follow the instructions
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
 
 ```
 submit50 mkotsovoulou/itc4214sp22/main/labs/trivia
