@@ -56,11 +56,16 @@ The function returns an array of all matching elements.
 
 
 ## Testing
-* Run your http-server, if not running
+* Run your http-server, if not already running
+
 ![http-server](http-server.png) 
+
 * Click on:
+         ```
          Available on:
          http://localhost:8080
+         ```
+         
          to view your work in another tab on your browser!
 
 * Make sure to test both incorrect and correct responses for each of your questions to ensure that your webpage responds appropriately.
