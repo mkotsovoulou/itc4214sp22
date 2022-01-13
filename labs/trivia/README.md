@@ -42,3 +42,12 @@ ls
 and you should see an index.html file and a styles.css file.
 
 If you run into any trouble, follow these same steps again and see if you can determine where you went wrong!
+
+{% next %}
+
+
+Execute the below, logging in with your GitHub username and password when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your password.
+
+```
+submit50 mkotsovoulou/itc4214sp22/main/labs/trivia
+```
