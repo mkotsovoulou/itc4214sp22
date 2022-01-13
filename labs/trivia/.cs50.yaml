@@ -1,9 +1,9 @@
 lab50:
-window:
+  window:   
     - editor
     - readme
     - terminal
-    
+
   files:
     - !exclude "*"
     - !include "index.html"
