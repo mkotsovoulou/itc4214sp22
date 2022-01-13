@@ -6,12 +6,12 @@ lab50:
 
   files:
     - !exclude "*"
-    - !include "index.html"
+    - !include "trivia.html"
     - !include "styles.css"
 
 check50: 
   files: &check50_files
-    - !require index.html
+    - !require trivia.html
 
 submit50: 
   files: *check50_files
