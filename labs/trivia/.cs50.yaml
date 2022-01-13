@@ -11,7 +11,8 @@ lab50:
 
 check50: 
   files: &check50_files
-    - !require trivia.html
+    - !require "trivia.html"
+    - !require "styles.css"
 
 submit50: 
   files: *check50_files
