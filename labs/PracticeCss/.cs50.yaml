@@ -12,15 +12,14 @@ lab50:
     - !include "css/*"
     - !include "img/*"
 
-
 check50: 
   files: &check50_files
     - !require "intro.html"
     - !require "about.html"
     - !require "contact.html"
-    - !require "css/*"
-    - !require "img/*"
-
+    - !require "css/styles.css"
+    - !require "css/responsive.css"
+    
 submit50: 
   files: *check50_files
   style: false
