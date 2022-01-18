@@ -1,0 +1,26 @@
+lab50:
+  window:   
+    - editor
+    - readme
+    - terminal
+
+  files:
+    - !exclude "*"
+    - !include "intro.html"
+    - !include "about.html"
+    - !include "contact.html"
+    - !include "css/*"
+    - !include "img/*"
+
+
+check50: 
+  files: &check50_files
+    - !require "intro.html"
+    - !require "about.html"
+    - !require "contact.html"
+    - !require "css/*"
+    - !require "img/*"
+
+submit50: 
+  files: *check50_files
+  style: false

@@ -1,4 +1,4 @@
-# HTML Lab 2: WebPage Design and Javascript
+# Lab 2: WebPage Design and Javascript
 Design a webpage using HTML, CSS, and JavaScript to let users answer trivia questions. Use the following screenshot to get ideas...
 
 ![EndResult](questions.png)

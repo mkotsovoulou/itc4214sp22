@@ -1,0 +1,39 @@
+/* Write your basic styles here */
+
+/* IMAGE GALLERY STYLES */
+.image-grid {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.grid-image {
+  /* images display inline by default and act like text. We want them to act like divs, so display block */
+  display: block;
+  /* our width setting for mobile, one image per line */
+  flex-basis: 33.333%;
+  /* provide some space between our images */
+  padding: 10px;
+  /* ensure padding doesn't cause images to wrap, it should be within the width rather than in addition */
+  box-sizing: border-box;
+}
+
+
+.imageContainer {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.imageContainer .imageText {
+  text-align:center;
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+}
