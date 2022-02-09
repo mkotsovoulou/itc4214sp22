@@ -3,7 +3,21 @@
 
 ## JavaScript Task 1
 In `code.js`:
-* when the html page is displayed the `result` div should display the contents of the numbers array
+* there is an array declared.
+![array](array.png)
+
+* when the html page is displayed, the `result` div should display the contents of the numbers array
+
+Sample Output 
+row 0: 1, 2, 1, 24
+row 1: 8, 11, 9, 4
+row 2: 7, 0, 7, 27
+
+
+{% spoiler Hint %}
+* Use a nested for loop.
+* the outer loop for the rows and the inner loop for the elements in each row
+{% endspoiler %}
 
 
 ### HOW TO TEST
