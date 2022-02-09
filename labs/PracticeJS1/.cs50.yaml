@@ -6,13 +6,13 @@ lab50:
 
   files:
     - !exclude "*"
-    - !include "index.html"
+    - !include "exercise.html"
     - !include "styles.css"
     - !include "code.js"
 
 check50: 
   files: &check50_files
-    - !require "index.html"
+    - !require "exercise.html"
     - !require "styles.css"
     - !require "code.js"
 
