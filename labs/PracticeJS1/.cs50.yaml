@@ -1,0 +1,21 @@
+lab50:
+  window:   
+    - editor
+    - readme
+    - terminal
+
+  files:
+    - !exclude "*"
+    - !include "index.html"
+    - !include "styles.css"
+    - !include "code.js"
+
+check50: 
+  files: &check50_files
+    - !require "index.html"
+    - !require "styles.css"
+    - !require "code.js"
+
+submit50: 
+  files: *check50_files
+  style: false
