@@ -50,7 +50,8 @@ In `intro.html`:
 * Run the command `http-server` in your terminal, to start a web server that serves your webpage. 
 ![http-server](http-server.png)
 
-* Click on: `http://localhost:8080` to view your work in another tab on your browser!
+* Control Click on: `http://localhost:8080` to view your work in another tab on your browser!
+   
 
 {% next %}
 
