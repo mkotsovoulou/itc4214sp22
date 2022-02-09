@@ -1,4 +1,4 @@
-# Lab 2: WebPage Design and Javascript
+# Lab 3: WebPage Design and Javascript
 Design a webpage using HTML, CSS, and JavaScript to let users answer trivia questions. Use the following screenshot to get ideas...
 
 ![EndResult](questions.png)
@@ -75,7 +75,7 @@ Make sure that we have:
 Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. If you do not have generated a Personal Access ToKen follow the instructions: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 ```
-submit50 mkotsovoulou/itc4214sp22/main/labs/trivia
+submit50 mkotsovoulou/itc4214sp22/main/labs/PracticeJS2
 ```
 
 @github/mkotsovoulou Do you have any questions?
