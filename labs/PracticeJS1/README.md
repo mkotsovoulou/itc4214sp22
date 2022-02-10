@@ -9,9 +9,8 @@ In `code.js`:
 * when the html page is displayed, the `result` div should display the contents of the numbers array
 
 
-
 {% spoiler Hint %}
-* Use a for loop.
+* Use a for loop:
 `for (let i = 0; i < ____________ ; i++) {  }`
 
 * or a foreach loop:
